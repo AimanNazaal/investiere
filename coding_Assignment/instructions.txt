@@ -1,0 +1,12 @@
+Assignment: Address Book
+
+This address book should be able to:
+1- store details of contacts 
+2- allow searching for specific contacts
+3- listing all contacts 
+4- allow deleting undeeded contacts
+
+- User needs to fill in the field, paying attention that first name and last name fields are mandatory. 
+- User clicks on "Create New Contact" to save the entered data at a local storage. 
+- Using the search button and field, user can search for specific contacts.
+- Using the "View All" button, user can view all saved contacts.

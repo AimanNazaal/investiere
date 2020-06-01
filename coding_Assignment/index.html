@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Address Book</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+ <h1>CONTACTS BOOK</h1>
+  <div class="panel">
+
+    <form id="contacts" action="Index.html" method="post">
+          <div>
+                <input type="text" id="firstname" name="firstname"  value=""  placeholder="First Name" required>
+          
+                <input type="text" id="lastname" name="lastname" value="" placeholder="Last Name" required>
+
+
+                <input type="tel" id="phone" name="phone"  value="" placeholder="0041 xx xxx xx xx"/>
+              
+
+                  <input type="email" id="email" name="email" value="" placeholder="john@xxxx.xxx" />
+
+              
+                  <input type="text" id="address" name="address"  value="" placeholder="Street Name" />
+
+              
+                  <input type="text" id="housenumber" name="housenumber" value="" placeholder="House Number"/>
+
+ 
+                  <input type="text" id="canton" name="canton" value="" placeholder="Canton"/>
+
+                
+                  <input type="text" id="city" name="city"  value="" placeholder="City"/>
+              
+
+                  <input type="text" id="postalcode" name="postalcode"  value="" placeholder="Postal Code" />
+              
+
+                  <input type="text" id="country" name="country"  value="" placeholder="Country"/> 
+                  <input type="submit" value="Create Contact"> 
+         </div>
+
+              <div class="panel">
+                <p>Search Contacts</p>
+                <form id="search" action="#">
+                  <input type="text" name="searchform" id="searchform" placeholder="Enter full name of contact">
+                  <input type="submit" value="Search">
+                </form>
+              </div>
+    </form>  
+
+
+<ul id="namesBook">
+</ul>
+
+
+         <div id="viewsection" class="panel">
+          <p>View All Contacts</p>
+          <form id="view" action="#">                  
+           <input type="submit" value="View All"> 
+          </form>
+          <ul id="myNewContacts">
+
+          </ul>
+        </div>
+
+
+  </div>
+      
+                 
+      <script src="/js/main.js"></script>
+</body>
+</html>
+  
